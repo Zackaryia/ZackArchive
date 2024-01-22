@@ -1,0 +1,40 @@
+{
+    "download": {
+        "quality": "max",
+        "range_threads": 16,
+        "chunk_size": 3145728
+    },
+    
+    "folder": {
+        "data": "/absolute/path/to/data",
+        "tmp": "/absolute/path/to/tmp"
+    },
+    
+    "polycentric": {
+        "servers": ["https://srv1-prod.polycentric.io"],
+
+        "bot": {
+            "js_path": "../polycentric/packages/index.js",
+
+            "username": "ZackArchiver",
+            "description": "Archives the world",
+        
+            "private_key_id": 1,
+            "private_key_data": "update_me",
+        },
+
+        "trusted_archivers": ["czbkEGCCDDPqChea1NeGhgoGXLMHYnc5h7RogdMfndo="]
+    },
+
+    "plugin": {
+        "source_js": "https://gitlab.futo.org/videostreaming/grayjay/-/raw/master/app/src/main/assets/scripts/source.js",
+        "config_urls": ["https://plugins.grayjay.app/Youtube/YoutubeConfig.json"]
+    },
+
+    "qbittorrent": {
+        "host": "localhost",
+        "port": update_me,
+        "username": "update_me",
+        "password": "update_me"
+    }
+}
