@@ -29,3 +29,7 @@ Then run the needed command below
 To archive a video + host it on qBittorrent run `python3 python/main.py archive "YOUTUBE VIDEO TO ARCHIVE" --settings /absolute/path/to/settings.json`
 
 To download a video run `python3 python/main.py pull "YOUTUBE VIDEO TO DOWNLOAD" --settings /absolute/path/to/settings.json`
+
+### Notes
+
+- Make sure you use the `lt20` version of qBittorrent because the non `lt20` version does not support Bittorrent V2. 
